@@ -27,7 +27,7 @@
             </controls:Panorama.Background>
  
             <!--Panorama item one-->
-            <controls:PanoramaItem Header="encontra o C">
+            <controls:PanoramaItem Header="{Binding Path=MyLocalizedResources.FindTheC, Source={StaticResource MyLocalizedStrings}}">
                 <!--Double line list with text wrapping-->
                 <ScrollViewer>
                 <StackPanel>
@@ -39,7 +39,7 @@
  
             <!--Panorama item two-->
             <!--Use 'Orientation="Horizontal"' to enable a panel that lays out horizontally-->
-            <controls:PanoramaItem Header="encontra o 6">
+            <controls:PanoramaItem Header="{Binding Path=MyLocalizedResources.FindTheSix, Source={StaticResource MyLocalizedStrings}}">
                 <ScrollViewer>
                 <StackPanel>
                     <TextBlock x:Name="tb_find6" TextWrapping="Wrap"></TextBlock>
@@ -47,7 +47,7 @@
                 </ScrollViewer>
             </controls:PanoramaItem>
 
-            <controls:PanoramaItem Header="encontra o N">
+            <controls:PanoramaItem Header="{Binding Path=MyLocalizedResources.FindTheN, Source={StaticResource MyLocalizedStrings}}">
                 <ScrollViewer>
                 <StackPanel>
                     <TextBlock x:Name="tb_findn" TextWrapping="Wrap"></TextBlock>
@@ -61,19 +61,19 @@
             FeedbackTo="suporteajbr@gmail.com"
             ApplicationName="Teste Neurológico"
             CompanyName="Alexandre Rodrigues"
-            RatingYes="5 estrelas"
-            RatingNo="não obrigado"
-            RatingTitle="Está a gostar do {0}?"
-            RatingMessage1="Demonstre que gosta desta aplicação classificando-a com 5 estrelas. Contamos com a sua classificação."
-            RatingMessage2="Aparentemente utiliza a nossa aplicação com alguma frequência, o que acha de a classificar com 5 estrelas?"
-            FeedbackMessage1="Lamentamos saber que não deseja votar. Gostaria de nos ajudar a melhor expressando a sua opinião sobre esta aplicação?"
-            FeedbackYes="dar opinião"
-            FeedbackNo="não obrigado"
-            FeedbackSubject=" {0} opinião de utilizador"
-            FeedbackBody="[A sua opinião aqui]"
-            FirstCount="1"
+            RatingYes="{Binding Path=MyLocalizedResources.RatingYes, Source={StaticResource MyLocalizedStrings}}"
+            RatingNo="{Binding Path=MyLocalizedResources.RatingNo, Source={StaticResource MyLocalizedStrings}}"
+            RatingTitle="{Binding Path=MyLocalizedResources.RatingTitle, Source={StaticResource MyLocalizedStrings}}"
+            RatingMessage1="{Binding Path=MyLocalizedResources.RatingMessage1, Source={StaticResource MyLocalizedStrings}}"
+            RatingMessage2="{Binding Path=MyLocalizedResources.RatingMessage2, Source={StaticResource MyLocalizedStrings}}"
+            FeedbackMessage1="{Binding Path=MyLocalizedResources.FeedbackMessage1, Source={StaticResource MyLocalizedStrings}}"
+            FeedbackYes="{Binding Path=MyLocalizedResources.FeedbackYes, Source={StaticResource MyLocalizedStrings}}"
+            FeedbackNo="{Binding Path=MyLocalizedResources.FeedbackNo, Source={StaticResource MyLocalizedStrings}}"
+            FeedbackSubject="{Binding Path=MyLocalizedResources.FeedbackSubject, Source={StaticResource MyLocalizedStrings}}"
+            FeedbackBody="{Binding Path=MyLocalizedResources.FeedbackBody, Source={StaticResource MyLocalizedStrings}}"
+            FirstCount="5"
             SecondCount="10"
             CountDays="False"
-            FeedbackTitle="Podemos fazer melhor?"/>
+            FeedbackTitle="{Binding Path=MyLocalizedResources.FeedbackTitle, Source={StaticResource MyLocalizedStrings}}"/>
     </Grid>
 </phone:PhoneApplicationPage>

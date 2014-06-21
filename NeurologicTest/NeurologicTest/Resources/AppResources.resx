@@ -120,6 +120,48 @@
   <data name="AppTitle" xml:space="preserve">
     <value>teste neurológico</value>
   </data>
+  <data name="FeedbackBody" xml:space="preserve">
+    <value>[A sua opinião aqui]</value>
+  </data>
+  <data name="FeedbackMessage1" xml:space="preserve">
+    <value>Lamentamos saber que não deseja votar. Gostaria de nos ajudar a melhor expressando a sua opinião sobre esta aplicação?</value>
+  </data>
+  <data name="FeedbackNo" xml:space="preserve">
+    <value>não obrigado</value>
+  </data>
+  <data name="FeedbackSubject" xml:space="preserve">
+    <value>{0} opinião de utilizador</value>
+  </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Podemos fazer melhor?</value>
+  </data>
+  <data name="FeedbackYes" xml:space="preserve">
+    <value>dar opinião</value>
+  </data>
+  <data name="FindTheC" xml:space="preserve">
+    <value>encontra o C</value>
+  </data>
+  <data name="FindTheN" xml:space="preserve">
+    <value>encontra o N</value>
+  </data>
+  <data name="FindTheSix" xml:space="preserve">
+    <value>encontra o 6</value>
+  </data>
+  <data name="RatingMessage1" xml:space="preserve">
+    <value>Demonstre que gosta desta aplicação classificando-a com 5 estrelas. Contamos com a sua classificação.</value>
+  </data>
+  <data name="RatingMessage2" xml:space="preserve">
+    <value>Aparentemente utiliza a nossa aplicação com alguma frequência, o que acha de a classificar com 5 estrelas?</value>
+  </data>
+  <data name="RatingNo" xml:space="preserve">
+    <value>não obrigado</value>
+  </data>
+  <data name="RatingTitle" xml:space="preserve">
+    <value>Está a gostar do {0}</value>
+  </data>
+  <data name="RatingYes" xml:space="preserve">
+    <value>5 estrelas</value>
+  </data>
   <data name="ResourceFlowDirection" xml:space="preserve">
     <value>LeftToRight</value>
     <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>

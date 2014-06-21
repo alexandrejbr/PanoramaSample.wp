@@ -1,11 +1,10 @@
 <MarketplaceDetails>
-  <SmallAppTile>
-  </SmallAppTile>
+  <SmallAppTile>marketplace.png</SmallAppTile>
   <LargeAppTile>
   </LargeAppTile>
   <PCAppTile>
   </PCAppTile>
-  <ScreenShots>;;;;;;;;</ScreenShots>
-  <ScreenShotsWXGA>;;;;;;;;</ScreenShotsWXGA>
-  <ScreenShots720P>;;;;;;;;</ScreenShots720P>
+  <ScreenShots>1.PNG;;;;;;;;</ScreenShots>
+  <ScreenShotsWXGA>WXGA.png;;;;;;;;</ScreenShotsWXGA>
+  <ScreenShots720P>720p.png;;;;;;;;</ScreenShots720P>
 </MarketplaceDetails>

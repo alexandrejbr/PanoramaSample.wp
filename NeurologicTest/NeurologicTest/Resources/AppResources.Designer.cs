@@ -36,7 +36,7 @@ namespace NeurologicTest.Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NeurologicTest.Resources.AppResources", typeof(AppResources).Assembly);
@@ -51,7 +51,7 @@ namespace NeurologicTest.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -70,6 +70,132 @@ namespace NeurologicTest.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to [A sua opinião aqui].
+        /// </summary>
+        public static string FeedbackBody {
+            get {
+                return ResourceManager.GetString("FeedbackBody", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lamentamos saber que não deseja votar. Gostaria de nos ajudar a melhor expressando a sua opinião sobre esta aplicação?.
+        /// </summary>
+        public static string FeedbackMessage1 {
+            get {
+                return ResourceManager.GetString("FeedbackMessage1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to não obrigado.
+        /// </summary>
+        public static string FeedbackNo {
+            get {
+                return ResourceManager.GetString("FeedbackNo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} opinião de utilizador.
+        /// </summary>
+        public static string FeedbackSubject {
+            get {
+                return ResourceManager.GetString("FeedbackSubject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Podemos fazer melhor?.
+        /// </summary>
+        public static string FeedbackTitle {
+            get {
+                return ResourceManager.GetString("FeedbackTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to dar opinião.
+        /// </summary>
+        public static string FeedbackYes {
+            get {
+                return ResourceManager.GetString("FeedbackYes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to encontra o C.
+        /// </summary>
+        public static string FindTheC {
+            get {
+                return ResourceManager.GetString("FindTheC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to encontra o N.
+        /// </summary>
+        public static string FindTheN {
+            get {
+                return ResourceManager.GetString("FindTheN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to encontra o 6.
+        /// </summary>
+        public static string FindTheSix {
+            get {
+                return ResourceManager.GetString("FindTheSix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Demonstre que gosta desta aplicação classificando-a com 5 estrelas. Contamos com a sua classificação..
+        /// </summary>
+        public static string RatingMessage1 {
+            get {
+                return ResourceManager.GetString("RatingMessage1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Aparentemente utiliza a nossa aplicação com alguma frequência, o que acha de a classificar com 5 estrelas?.
+        /// </summary>
+        public static string RatingMessage2 {
+            get {
+                return ResourceManager.GetString("RatingMessage2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to não obrigado.
+        /// </summary>
+        public static string RatingNo {
+            get {
+                return ResourceManager.GetString("RatingNo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Está a gostar do {0}.
+        /// </summary>
+        public static string RatingTitle {
+            get {
+                return ResourceManager.GetString("RatingTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5 estrelas.
+        /// </summary>
+        public static string RatingYes {
+            get {
+                return ResourceManager.GetString("RatingYes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to LeftToRight.
         /// </summary>
         public static string ResourceFlowDirection {
@@ -81,8 +207,7 @@ namespace NeurologicTest.Resources {
         /// <summary>
         ///   Looks up a localized string similar to pt-PT.
         /// </summary>
-        public static string ResourceLanguage
-        {
+        public static string ResourceLanguage {
             get {
                 return ResourceManager.GetString("ResourceLanguage", resourceCulture);
             }

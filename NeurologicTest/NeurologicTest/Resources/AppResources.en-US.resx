@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AppTitle" xml:space="preserve">
-    <value>teste neurológico</value>
+    <value>neurologic test</value>
   </data>
   <data name="ResourceFlowDirection" xml:space="preserve">
     <value>LeftToRight</value>
@@ -127,5 +127,47 @@
   <data name="ResourceLanguage" xml:space="preserve">
     <value>en-US</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="FindTheC" xml:space="preserve">
+    <value>find the C</value>
+  </data>
+  <data name="FindTheN" xml:space="preserve">
+    <value>find the N</value>
+  </data>
+  <data name="FindTheSix" xml:space="preserve">
+    <value>find the 6</value>
+  </data>
+  <data name="RatingMessage1" xml:space="preserve">
+    <value>We'd love you to rate our app 5 stars. Showing us some love on the store helps us to continue to work on the app and make things even better!</value>
+  </data>
+  <data name="RatingMessage2" xml:space="preserve">
+    <value>You look to be getting a lot of use out of our application!Why not give us a 5 star rating to show your appreciation?</value>
+  </data>
+  <data name="RatingNo" xml:space="preserve">
+    <value>no thanks</value>
+  </data>
+  <data name="RatingTitle" xml:space="preserve">
+    <value>Enjoying {0}?</value>
+  </data>
+  <data name="RatingYes" xml:space="preserve">
+    <value>rate 5 stars</value>
+  </data>
+  <data name="FeedbackBody" xml:space="preserve">
+    <value>[Your feedback here]</value>
+  </data>
+  <data name="FeedbackMessage1" xml:space="preserve">
+    <value>Sorry to hear you didn't want to rate {0}. Tell us about your experience or suggest how we can make it even better.</value>
+  </data>
+  <data name="FeedbackNo" xml:space="preserve">
+    <value>no thanks</value>
+  </data>
+  <data name="FeedbackSubject" xml:space="preserve">
+    <value>{0} Customer Feedback </value>
+  </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Can we make it better? </value>
+  </data>
+  <data name="FeedbackYes" xml:space="preserve">
+    <value>give feedback</value>
   </data>
 </root>
